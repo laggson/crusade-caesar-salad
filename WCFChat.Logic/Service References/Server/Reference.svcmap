@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="e35b8e27-e62e-478b-a8f9-1d667b8181d0" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8733/Design_Time_Addresses/WCFChat.Service/Service1/mex" Protocol="mex" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="service.wsdl" MetadataType="Wsdl" ID="76ab43f4-ccf8-48dd-ba2a-42ffc74e3530" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFChat.Service/Service1/mex" />
+    <MetadataFile FileName="service.xsd" MetadataType="Schema" ID="9b3983dc-d7eb-432f-91af-4120bc77c2f1" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFChat.Service/Service1/mex" />
+    <MetadataFile FileName="service1.xsd" MetadataType="Schema" ID="484539ba-bbd1-4c3b-8db5-e3640cd7b594" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFChat.Service/Service1/mex" />
+    <MetadataFile FileName="WCFChat.Service.xsd" MetadataType="Schema" ID="13211063-20a4-44a9-a05c-399a1423cc38" SourceId="1" SourceUrl="http://localhost:8733/Design_Time_Addresses/WCFChat.Service/Service1/mex" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
