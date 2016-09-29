@@ -1,0 +1,42 @@
+﻿<Window x:Class="WCFChat.View.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WCFChat.View"
+        xmlns:viewModel="clr-namespace:WCFChat.ViewModel;assembly=WCFChat.ViewModel"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Window.DataContext>
+        <viewModel:Presenter />
+    </Window.DataContext>
+    
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Menu IsMainMenu="True">
+            <MenuItem Header="_Datei">
+
+            </MenuItem>
+            <MenuItem Header="_Bearbeiten">
+
+            </MenuItem>
+            <MenuItem Header="_Ansicht" >
+
+            </MenuItem>
+            <MenuItem Header="Extras">
+
+            </MenuItem>
+            <MenuItem Header="Hilfe">
+
+            </MenuItem>
+        </Menu>
+
+        <ListBox Grid.Row="1" />
+
+    </Grid>
+</Window>
